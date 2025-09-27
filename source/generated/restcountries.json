@@ -1364,10 +1364,10 @@
                 "$ref": "#/components/x-global-variables-info/g1"
               }
             },
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1399,10 +1399,10 @@
                 "$ref": "#/components/x-global-variables-info/g1"
               }
             },
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1423,10 +1423,10 @@
       "/v1/callingcode/{callingcode}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1447,10 +1447,10 @@
       "/v1/capital/{capital}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g8": {
@@ -1483,10 +1483,10 @@
                 "$ref": "#/components/x-global-variables-info/g1"
               }
             },
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1507,10 +1507,10 @@
       "/v1/lang/{lang}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1531,10 +1531,10 @@
       "/v1/name/{name}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g8": {
@@ -1561,10 +1561,10 @@
       "/v1/region/{region}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1585,10 +1585,10 @@
       "/v1/subregion/{subregion}": {
         "get": {
           "global-reads": {
-            "g7": {
+            "g6": {
               "name": "NOT_FOUND",
               "location-details": {
-                "$ref": "#/components/x-global-variables-info/g7"
+                "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g10": {
@@ -1680,13 +1680,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1721,13 +1721,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1751,13 +1751,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1781,13 +1781,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1823,16 +1823,16 @@
               }
             },
             "g6": {
-              "name": "countries",
-              "constraints": [
-                "(not (= |(eu.fayder.restcountries.v2.domain.Currency) ((eu.fayder.restcountries.v2.domain.Country) <eu.fayder.restcountries.v2.rest.CountryService: java.util.List countries>.<java.util.List: java.util.Iterator iterator()>().<java.util.Iterator: java.lang.Object next()>()).<eu.fayder.restcountries.v2.domain.Country: java.util.List getCurrencies()>().<java.util.List: java.util.Iterator iterator()>().<java.util.Iterator: java.lang.Object next()>()|\n        null))"
-              ],
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
+              "constraints": [
+                "(not (= |(eu.fayder.restcountries.v2.domain.Currency) ((eu.fayder.restcountries.v2.domain.Country) <eu.fayder.restcountries.v2.rest.CountryService: java.util.List countries>.<java.util.List: java.util.Iterator iterator()>().<java.util.Iterator: java.lang.Object next()>()).<eu.fayder.restcountries.v2.domain.Country: java.util.List getCurrencies()>().<java.util.List: java.util.Iterator iterator()>().<java.util.Iterator: java.lang.Object next()>()|\n        null))"
+              ],
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1856,13 +1856,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1892,13 +1892,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1922,13 +1922,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1958,13 +1958,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -1988,13 +1988,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -2018,13 +2018,13 @@
               }
             },
             "g6": {
-              "name": "countries",
+              "name": "NOT_FOUND",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g6"
               }
             },
             "g7": {
-              "name": "NOT_FOUND",
+              "name": "countries",
               "location-details": {
                 "$ref": "#/components/x-global-variables-info/g7"
               }
@@ -2075,17 +2075,17 @@
         ]
       },
       "g6": {
-        "name": "countries",
+        "name": "NOT_FOUND",
         "id": "g6",
+        "defining-class": "javax.ws.rs.core.Response$Status"
+      },
+      "g7": {
+        "name": "countries",
+        "id": "g7",
         "defining-class": "eu.fayder.restcountries.v2.rest.CountryService",
         "locations-of-static-assignments": [
           "line 131, eu.fayder.restcountries.v2.rest.CountryService"
         ]
-      },
-      "g7": {
-        "name": "NOT_FOUND",
-        "id": "g7",
-        "defining-class": "javax.ws.rs.core.Response$Status"
       },
       "g8": {
         "name": "NFD",
