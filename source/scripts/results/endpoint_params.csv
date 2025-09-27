@@ -1,0 +1,14 @@
+subject_name,count_params_res,count_params_dev
+feature_service,29,29
+envirocar,194,131
+digdag,80,72
+restcountries,35,20
+senzing,154,154
+ohsome,1914,1620
+kafka,154,14
+quartz,3,3
+ur_codebin,6,3
+cwa,4,5
+cassandra,32,32
+catwatch,32,28
+proxyprint,64,44
