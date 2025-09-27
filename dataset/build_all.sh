@@ -42,7 +42,8 @@ mvn compile
 cd ..
 
 cd ocvn
-JAVA_HOME=$JAVA8_HOME mvn compile
+# JAVA_HOME=$JAVA8_HOME mvn compile
+JAVA_HOME=$JAVA8_HOME /opt/apache-maven-3.3/bin/mvn compile
 cd ..
 
 cd ohsome-api
